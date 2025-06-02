@@ -1,0 +1,59 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model Kiralama
+
+@{
+    ViewData["Title"] = "KiraYap";
+    Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<h1>Kiralama Sayfası</h1>
+<br />
+
+@if (ViewBag.Hata != null)
+{
+    <div class="alert alert-danger">
+        <strong>Hata:</strong> @ViewBag.Hata
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Kira Başlangıç Tarihi</label>
+        <input class="form-control" asp-for="KiraBaslangic" type="date" />
+        <span asp-validation-for="KiraBaslangic" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Kira Bitiş Tarihi</label>
+        <input class="form-control" asp-for="KiraBitis" type="date" />
+        <span asp-validation-for="KiraBitis" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Müşteri ID</label>
+        <input class="form-control" asp-for="MusteriId" />
+    </div>
+
+    <div class="form-group">
+        <label>Araç ID</label>
+        <input class="form-control" asp-for="AracId" />
+    </div>
+
+    <br />
+    <input type="submit" value="Kaydet" class="btn btn-success" />
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.querySelector("form").addEventListener("submit", function (e) {
+            const baslangic = new Date(document.querySelector('[name="KiraBaslangic"]').value);
+            const bitis = new Date(document.querySelector('[name="KiraBitis"]').value);
+
+            if (bitis < baslangic) {
+                alert("❌ Kira bitiş tarihi, başlangıç tarihinden önce olamaz!");
+                e.preventDefault();
+            }
+        });
+    </script>
+}

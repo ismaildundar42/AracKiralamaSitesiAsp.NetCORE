@@ -1,0 +1,50 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model Musteri
+@{
+    ViewData["Title"] = "MusteriGuncelle";
+    Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<h1>Müşteri Güncelleme Sayfası</h1>
+<br>
+
+<form method="post">
+    <input type="hidden" asp-for="MusteriId" />
+
+    <div class="form-group">
+        <label>Müşteri Ad Soyad</label>
+        <input class="form-control" asp-for="MusteriAdSoyad" />
+    </div>
+
+    <div class="form-group">
+        <label>Müşteri Telefon Numarası</label>
+        <input class="form-control"
+               asp-for="MusteriTelefon"
+               maxlength="10"
+               minlength="10"
+               pattern="\d{10}"
+               title="10 haneli telefon numarası giriniz (başında 0 olmadan)" />
+        <span asp-validation-for="MusteriTelefon" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Müşteri TC</label>
+        <input class="form-control"
+               asp-for="MusteriTc"
+               maxlength="11"
+               minlength="11"
+               pattern="\d{11}"
+               title="11 haneli TC kimlik numarası giriniz" />
+        <span asp-validation-for="MusteriTc" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label>Müşteri Şifre</label>
+        <input class="form-control" asp-for="MusteriSifre" />
+    </div>
+    <br />
+
+    <input type="submit" value="Güncelle" class="btn btn-success" />
+</form>
+

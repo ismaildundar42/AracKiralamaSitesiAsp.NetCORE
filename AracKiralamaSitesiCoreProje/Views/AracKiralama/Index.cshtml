@@ -1,0 +1,34 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model List<Kiralama>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Kira İd</th>
+            <th scope="col">Kira Kira Başlangıç Tarihi</th>
+            <th scope="col">Kira Kira Bitiş Tarihi</th>
+            <th scope="col">Müşteri Id</th>
+            <th scope="col">Araç Id</th>
+            <th scope="col">Kira İptal Et</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.KiraID</td>
+                <td>@x.KiraBaslangic</td>
+                <td>@x.KiraBitis</td>
+                <td>@x.MusteriId</td>
+                <td>@x.AracId</td>
+                <td><a href="/AracKiralama/KiralamaIptalEt/@x.KiraID" class="btn btn-info">İptal Et</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/AracKiralama/KiraYap" class="btn btn-primary">Yeni Kiralama İşlemi Yap</a>

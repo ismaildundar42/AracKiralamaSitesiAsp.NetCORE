@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\arackiralama\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\arackiralama\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\shared\\_loginanatema.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\shared\\_loginanatema.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\musteripanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\musteripanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\controllers\\musteripanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:controllers\\musteripanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\controllers\\arackiralamacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:controllers\\arackiralamacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\arackiralama\\kirayap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\arackiralama\\kirayap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\musteri\\musteriguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\musteri\\musteriguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\musteri\\musteriekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\musteri\\musteriekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\arac\\aracguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\arac\\aracguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\arac\\aracekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\arac\\aracekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\musteri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\musteri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\controllers\\araccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:controllers\\araccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\arac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\arac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\shared\\_anatema.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\shared\\_anatema.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\views\\admin\\adminekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:views\\admin\\adminekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|c:\\users\\ismail\\desktop\\efcoreproje\\arackiralamasitesicoreproje\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3BCDF3-6D2E-449D-8A3E-7E24D5728EBC}|AracKiralamaSitesiCoreProje.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\MusteriPanel\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\MusteriPanel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\MusteriPanel\\Index.cshtml",
+              "RelativeToolTip": "Views\\MusteriPanel\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwDoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T21:48:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusteriPanelController.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\MusteriPanelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MusteriPanelController.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\MusteriPanelController.cs",
+              "RelativeToolTip": "Controllers\\MusteriPanelController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:48:20.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:47:33.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LoginAnaTema.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Shared\\_LoginAnaTema.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginAnaTema.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Shared\\_LoginAnaTema.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginAnaTema.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:24:51.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AracKiralamaController.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\AracKiralamaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AracKiralamaController.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\AracKiralamaController.cs",
+              "RelativeToolTip": "Controllers\\AracKiralamaController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:24:19.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KiraYap.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\AracKiralama\\KiraYap.cshtml",
+              "RelativeDocumentMoniker": "Views\\AracKiralama\\KiraYap.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\AracKiralama\\KiraYap.cshtml",
+              "RelativeToolTip": "Views\\AracKiralama\\KiraYap.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:23:30.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\AracKiralama\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AracKiralama\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\AracKiralama\\Index.cshtml",
+              "RelativeToolTip": "Views\\AracKiralama\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:22:46.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MusteriGuncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Musteri\\MusteriGuncelle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Musteri\\MusteriGuncelle.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Musteri\\MusteriGuncelle.cshtml",
+              "RelativeToolTip": "Views\\Musteri\\MusteriGuncelle.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:20:35.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MusteriEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Musteri\\MusteriEkle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Musteri\\MusteriEkle.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Musteri\\MusteriEkle.cshtml",
+              "RelativeToolTip": "Views\\Musteri\\MusteriEkle.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:19:41.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AracGuncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Arac\\AracGuncelle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Arac\\AracGuncelle.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Arac\\AracGuncelle.cshtml",
+              "RelativeToolTip": "Views\\Arac\\AracGuncelle.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:18:03.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AracEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Arac\\AracEkle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Arac\\AracEkle.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Arac\\AracEkle.cshtml",
+              "RelativeToolTip": "Views\\Arac\\AracEkle.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:17:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MusteriController.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\MusteriController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MusteriController.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\MusteriController.cs",
+              "RelativeToolTip": "Controllers\\MusteriController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA9wDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:16:31.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Musteri\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Musteri\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Musteri\\Index.cshtml",
+              "RelativeToolTip": "Views\\Musteri\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:15:19.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AracController.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\AracController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AracController.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\AracController.cs",
+              "RelativeToolTip": "Controllers\\AracController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:14:29.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA/wCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:13:11.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_AnaTema.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Shared\\_AnaTema.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AnaTema.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Shared\\_AnaTema.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AnaTema.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:12:02.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Arac\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Arac\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Arac\\Index.cshtml",
+              "RelativeToolTip": "Views\\Arac\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:11:49.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Admin\\AdminEkle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminEkle.cshtml",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Views\\Admin\\AdminEkle.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AdminEkle.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:10:52.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ismail\\Desktop\\EFCoreProje\\AracKiralamaSitesiCoreProje\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:04:28.489Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

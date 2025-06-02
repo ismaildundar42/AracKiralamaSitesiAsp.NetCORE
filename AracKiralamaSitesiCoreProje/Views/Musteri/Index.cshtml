@@ -1,0 +1,45 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model List<Musteri>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<h2>Müşteri Listesi</h2>
+
+<!-- 🔍 Arama Formu -->
+<form method="get" asp-controller="Musteri" asp-action="Index" class="mb-4 d-flex gap-2">
+    <input type="text" name="search" class="form-control w-25" placeholder="Müşteri adı giriniz..." />
+    <button type="submit" class="btn btn-primary">Ara</button>
+</form>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Müşteri İd</th>
+            <th scope="col">Müşteri Ad Soyad</th>
+            <th scope="col">Müşteri Telefon</th>
+            <th scope="col">Müşteri TC</th>
+            <th scope="col">Müşteri Şifre</th>
+            <th scope="col">Güncelle</th>
+            <th scope="col">Sil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.MusteriId</td>
+                <td>@x.MusteriAdSoyad</td>
+                <td>@x.MusteriTelefon</td>
+                <td>@x.MusteriTc</td>
+                <td>@x.MusteriSifre</td>
+                <td><a href="/Musteri/MusteriGuncelle/@x.MusteriId" class="btn btn-info">Güncelle</a></td>
+                <td><a href="/Musteri/MusteriSil/@x.MusteriId" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Musteri/MusteriEkle" class="btn btn-primary">Yeni Müşteri Ekle</a>

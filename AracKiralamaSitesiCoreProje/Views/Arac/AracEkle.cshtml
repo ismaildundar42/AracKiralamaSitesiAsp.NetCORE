@@ -1,0 +1,45 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model Arac
+@{
+	ViewData["Title"] = "AracEkle";
+	Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<h1>Arac Ekleme Ekranı</h1>
+<br />
+
+<form method="post" enctype="multipart/form-data">
+	<div class="form-group">
+		<label>Arac Marka</label>
+		<input class="form-control" asp-for="AracMarka" />
+	</div>
+
+	<div class="form-group">
+		<label>Arac Model</label>
+		<input class="form-control" asp-for="AracModel" />
+	</div>
+
+	<div class="form-group">
+		<label>Arac Plaka</label>
+		<input class="form-control" asp-for="AracPlaka" />
+	</div>
+
+	<div class="form-group">
+		<label>Arac Yakıt</label>
+		<input class="form-control" asp-for="AracYakit" />
+	</div>
+
+	<div class="form-group">
+		<label>Günlük Ücret</label>
+		<input class="form-control" asp-for="AracGunlukFiyat" />
+	</div>
+
+	<div class="form-group">
+		<label>Arac Fotoğraf</label>
+		<input type="file" class="form-control" name="fotoDosyasi" accept="image/*" />
+	</div>
+
+	<br />
+
+	<input type="submit" value="Kaydet" class="btn btn-success" />
+</form>

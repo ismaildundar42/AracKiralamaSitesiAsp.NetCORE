@@ -1,0 +1,67 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model Arac
+
+@{
+    ViewData["Title"] = "AracGuncelle";
+    Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<h1>Araç Güncelleme Sayfası</h1>
+<br>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="AracId" />
+
+    <div class="form-group">
+        <label>Araç Marka</label>
+        <input class="form-control" asp-for="AracMarka" />
+    </div>
+
+    <div class="form-group">
+        <label>Araç Model</label>
+        <input class="form-control" asp-for="AracModel" />
+    </div>
+
+    <div class="form-group">
+        <label>Araç Plaka</label>
+        <input class="form-control" asp-for="AracPlaka" />
+    </div>
+
+    <div class="form-group">
+        <label>Araç Yakıt</label>
+        <input class="form-control" asp-for="AracYakit" />
+    </div>
+
+    <div class="form-group">
+        <label>Günlük Ücret</label>
+        <input class="form-control" asp-for="AracGunlukFiyat" />
+    </div>
+
+    <div class="form-group">
+        <label>Durum</label>
+        <select class="form-control" asp-for="AracDurum">
+            <option value="true">Müsait</option>
+            <option value="false">Kirada</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Mevcut Fotoğraf:</label><br />
+        @if (!string.IsNullOrEmpty(Model.AracFoto))
+        {
+            <img src="@Model.AracFoto" width="150" height="100" style="object-fit: cover; border-radius: 6px;" />
+        }
+        else
+        {
+            <p><i>Fotoğraf bulunamadı.</i></p>
+        }
+    </div>
+
+    <div class="form-group">
+        <label>Yeni Fotoğraf Yükle (opsiyonel)</label>
+        <input type="file" class="form-control" name="yeniFoto" accept="image/*" />
+    </div>
+
+    <br />
+    <input type="submit" value="Güncelle" class="btn btn-success" />
+</form>

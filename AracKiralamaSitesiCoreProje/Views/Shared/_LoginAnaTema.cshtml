@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Giriş";
+    Layout = null; // Giriş sayfası full-screen olacağı için layout kullanılmıyor
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Giriş - Gazi Rent a Car</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #74b9ff, #a29bfe, #dfe6e9);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .login-card {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .form-control::placeholder {
+            color: #aaa;
+        }
+
+        .show-password {
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-card">
+        <h3 class="text-center mb-4 text-primary fw-bold">Gazi Rent a Car Giriş</h3>
+
+        @if (ViewBag.Hata != null)
+        {
+            <div class="alert alert-danger text-center">@ViewBag.Hata</div>
+        }
+
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label">Kullanıcı Adı / TC</label>
+                <input type="text" name="kullaniciAdi" class="form-control" placeholder="Kullanıcı adınızı ya da TC'nizi girin" required />
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label class="form-label">Şifre</label>
+                <input type="password" id="password" name="sifre" class="form-control" placeholder="Şifrenizi girin" required />
+                <span class="show-password" onclick="togglePassword()">
+                    <i class="bi bi-eye-slash" id="eyeIcon"></i>
+                </span>
+            </div>
+
+            @RenderBody()
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Giriş Yap</button>
+            </div>
+            <br />
+            <a href="Admin/AdminEkle">Bir Hesabınız Yok Mu?</a>
+        </form>
+    </div>
+
+    <script>
+        function togglePassword() {
+            var input = document.getElementById("password");
+            var icon = document.getElementById("eyeIcon");
+
+            if (input.type === "password") {
+                input.type = "text";
+                icon.classList.remove("bi-eye-slash");
+                icon.classList.add("bi-eye");
+            } else {
+                input.type = "password";
+                icon.classList.remove("bi-eye");
+                icon.classList.add("bi-eye-slash");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿@using AracKiralamaSitesiCoreProje.Models
+@model List<Arac>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AnaTema.cshtml";
+}
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Arac İd</th>
+            <th scope="col">Arac Fotoğraf</th>
+            <th scope="col">Arac Marka</th>
+            <th scope="col">Arac Model</th>
+            <th scope="col">Arac Plaka</th>
+            <th scope="col">Arac Yakıt</th>
+            <th scope="col">Günlük Ücret</th>
+            <th scope="col">Durum</th>
+            <th scope="col">Güncelle</th>
+            <th scope="col">Sil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.AracId</td>
+                <td>
+                    <img src="@x.AracFoto" alt="Arac Fotoğrafı" width="100" height="60" style="object-fit:cover; border-radius:6px;" />
+                </td>
+
+                <td>@x.AracMarka</td>
+                <td>@x.AracModel</td>
+                <td>@x.AracPlaka</td>
+                <td>@x.AracYakit</td>
+                <td>@x.AracGunlukFiyat</td>
+                <td>@x.AracDurum</td>
+               
+                <td><a href="/Arac/AracGuncelle/@x.AracId" class="btn btn-info">Güncelle</a></td>
+                <td><a href="/Arac/AracSil/@x.AracId" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Arac/AracEkle" class="btn btn-primary">Yeni Arac Ekle</a>
+
